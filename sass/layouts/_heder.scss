@@ -1,0 +1,50 @@
+.header {
+  margin-left: 39px;
+}
+
+.flex-menu {
+  display: flex;
+}
+
+.list-contact {
+  display: block;
+  margin-right: 39px;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.item-nav {
+  margin-left: 24px;
+}
+
+.menu {
+  margin-top: 52px;
+}
+
+.icon.logo {
+  margin-top: 32px;
+}
+
+.navigation .link-menu,
+.navigation .link-btn {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.34;
+  letter-spacing: 0.1em;
+
+  color: $white;
+}
+
+.navigation .link-menu:hover,
+.navigation .link-btn:hover,
+.navigation .link-menu:focus,
+.navigation .link-btn:focus {
+  color: $accent-cl;
+}
+
+.list-contact .link-menu {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}

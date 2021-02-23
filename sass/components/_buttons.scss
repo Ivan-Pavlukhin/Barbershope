@@ -1,0 +1,15 @@
+.btn {
+  width: 160px;
+  height: 40px;
+  border: 1px solid $accent-cl;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  color: $white;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: $white;
+  color: $accent-cl;
+}
